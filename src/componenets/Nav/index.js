@@ -2,8 +2,7 @@ import React from 'react';
 
 function Nav() {
     return(
-        <header>
-            <h1>Matthew</h1>
+        <section>
             <nav>
                 <ul>
                     <li>
@@ -20,7 +19,7 @@ function Nav() {
                     </li>
                 </ul>
             </nav>
-        </header>
+        </section>
     )
 }
 
