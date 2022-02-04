@@ -3,19 +3,16 @@ import React from 'react';
 function Nav() {
     return(
         <section>
-            <nav>
+            <nav className="navigation">
                 <ul>
                     <li>
                         About
                     </li>
                     <li>
-                        Portfolio
+                        Previous Work
                     </li>
                     <li>
                         Contact
-                    </li>
-                    <li>
-                        Resume
                     </li>
                 </ul>
             </nav>

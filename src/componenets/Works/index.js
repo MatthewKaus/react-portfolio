@@ -3,7 +3,7 @@ import React from 'react';
 function Works() {
     return (
         <section>
-            <h1>Previous Works</h1>
+            <h1>Previous Work</h1>
             <p>Here are my previous works</p>
         </section>
     )
