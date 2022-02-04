@@ -1,10 +1,12 @@
 import React from 'react';
 
-function Hero () {
+function Hero() {
     return (
         <header className='hero'>
             <h1 className='hero-header'>Matthew Kaus</h1>
-            <p className='hero-subtitle'>Welcome to my portfolio</p>
+            <div className='flex-column'>
+                <p className='hero-subtitle'>Welcome to my portfolio</p>
+            </div>
         </header>
     )
 }
