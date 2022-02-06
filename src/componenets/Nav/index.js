@@ -1,22 +1,23 @@
 import React from 'react';
 
-function Nav() {
-    return(
-        <section>
+const Nav = (props) => {
+
+    var tabs = ['About', 'Works', 'Contact']
+
+
+    return (
             <nav className="navigation">
                 <ul>
-                    <li>
-                        About
-                    </li>
-                    <li>
-                        Previous Work
-                    </li>
-                    <li>
-                        Contact
-                    </li>
+                    {tabs.map(tab => (
+                        <li key={tab}>
+                            <a href={`#${tab.toLowerCase()}`} onClick={() => props.handlePageChange(tab)}>
+                                {tab}
+                            </a>
+                        </li>
+                    ))}
+
                 </ul>
             </nav>
-        </section>
     )
 }
 
