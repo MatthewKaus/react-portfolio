@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { aboutText, footerLinks, works } from './data'
+import { aboutText, footerLinks } from './data'
 
 import './App.css';
 import Hero from './componenets/Hero'
