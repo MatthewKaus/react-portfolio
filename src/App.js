@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { aboutText, footerLinks, works } from './data'
+
 import './App.css';
 import Hero from './componenets/Hero'
 import Nav from './componenets/Nav'
@@ -6,6 +8,8 @@ import About from './componenets/About'
 import Contact from './componenets/Contact'
 import Footer from './componenets/Footer'
 import Works from './componenets/Works'
+
+import './assets/css/fontawesome/css/all.css'
 
 
 function App() {
@@ -19,7 +23,7 @@ function App() {
       case 'Contact':
         return <Contact />;
       default:
-        return <About />;
+        return <About aboutText={aboutText}/>;
     }
   };
 
@@ -44,7 +48,7 @@ function App() {
           </div>
         </section>}
 
-      <Footer />
+      <Footer footerLinks={footerLinks} />
     </div>
   );
 }

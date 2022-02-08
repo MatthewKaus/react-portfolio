@@ -54,29 +54,40 @@ body {
   background: var(--primary);
   color: var(--default);
   padding: .4vh 0;
+  text-decoration: none;
 }
 
 .body {
   /* background: var(--secondary); */
-  min-height: 50vh;;
+  min-height: 60vh;;
 }
 
 .about {
-  max-width: 60%;
+  max-width: 1024px;
   margin: 0 auto;
   overflow: hidden;
   padding: 1.5em;
   line-height: 150%;
 }
 
+.about-title {
+  font-size: 2em;
+}
+
 .about-text {
-  font-size: 1.4em;
-  line-height: 1.6em;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: left;
+}
+
+i {
+  font-size: 3em;
+  color: var(--quinary);
 }
 
 footer {
   background: var(--primary);
-  color: var(--default);
+  color: var(--quinary);
   
 }
 
