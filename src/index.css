@@ -83,12 +83,20 @@ body {
 i {
   font-size: 3em;
   color: var(--quinary);
+  transition: .2s
+}
+
+i:hover {
+  color: var(--default);
+}
+
+li {
+  list-style: none;
 }
 
 footer {
   background: var(--primary);
   color: var(--quinary);
-  
 }
 
 code {
