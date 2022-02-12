@@ -50,11 +50,61 @@ body {
   text-align: center;
 }
 
-.navigation {
+img {
+  max-width: 500px;
+}
+
+nav {
+  width: 100%;
   background: var(--primary);
+  padding: 1.5em;
+}
+
+.nav {
+  margin: 0 auto;
+  max-width: 1020px;
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-items {
+  padding: 1dm 0;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
   color: var(--default);
-  padding: .4vh 0;
-  text-decoration: none;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--default);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .body {
@@ -80,6 +130,7 @@ body {
   text-align: left;
 }
 
+
 i {
   font-size: 3em;
   color: var(--quinary);
@@ -94,6 +145,20 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: var(--quinary);
+  transition: .1s
+}
+
+a:hover {
+  color: var(--default);
+}
+
+a {
+  list-style: none;
+}
+
 footer {
   background: var(--primary);
   color: var(--quinary);
@@ -103,3 +168,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

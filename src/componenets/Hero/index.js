@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Hero() {
+const Hero = ({ logo }) => {
     return (
         <section>
             <header className='hero'>
@@ -8,6 +8,7 @@ function Hero() {
                 <div className='flex-column'>
                     <p className='hero-subtitle'>Welcome to my portfolio</p>
                 </div>
+                <img src={logo} />
             </header>
         </section>
     )

@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import { aboutText, footerLinks } from './data'
+import logo from './assets/images/foxKritaNoBack.png'
 
 import './App.css';
-import Hero from './componenets/Hero'
-import Nav from './componenets/Nav'
-import About from './componenets/About'
-import Contact from './componenets/Contact'
-import Footer from './componenets/Footer'
-import Works from './componenets/Works'
+import Hero from './componenets/Hero';
+import Nav from './componenets/Nav';
+import About from './componenets/About';
+import Contact from './componenets/Contact';
+import Footer from './componenets/Footer';
+import Works from './componenets/Works';
+import Skills from './componenets/Skills';
 
 import './assets/css/fontawesome/css/all.css'
 
@@ -20,10 +22,12 @@ function App() {
     switch (currentPage) {
       case 'Works':
         return <Works />;
+      case 'Skills':
+        return <Skills />
       case 'Contact':
         return <Contact />;
       default:
-        return <About aboutText={aboutText}/>;
+        return <About aboutText={aboutText} />
     }
   };
 
@@ -32,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <Hero />
+      <Hero logo={logo}/>
 
       {currentPage === 'About'
         ? <section>

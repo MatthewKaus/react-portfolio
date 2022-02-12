@@ -4,7 +4,7 @@ export const aboutText = {
             text: 'I am from small town Gallup, New Mexico and a graduate in Full Stack Web Development from the University of Arizona. I am specialized in the MERN Stack (MangoDB, Express.js, React, Node.js)'
         },
         {
-            text: ''
+            text: 'Second text goes here'
         },
         {
             text: 'Third text goes here'
