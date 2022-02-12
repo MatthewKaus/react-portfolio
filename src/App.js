@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { aboutText, footerLinks } from './data'
+import { aboutText, footerLinks, skillsText } from './data'
 import logo from './assets/images/foxKritaNoBack.png'
 
 import './App.css';
@@ -23,7 +23,7 @@ function App() {
       case 'Works':
         return <Works />;
       case 'Skills':
-        return <Skills />
+        return <Skills skillsText={skillsText}/>
       case 'Contact':
         return <Contact />;
       default:

@@ -27,6 +27,32 @@ export const footerLinks = {
     ]
 }
 
-export const works = {
+export const worksText = {
+    works: [
+        {
+            title: '',
+            text: ''
+        }
+    ]
+}
 
+export const skillsText = {
+    skills: [
+        {
+            title: 'Front-End',
+            text: 'JavaScript, ReactJS, HTML5, CSS, jQuery, BootStrap, Bulma'
+        },
+        {
+            title: 'Back-End',
+            text: 'mySQL, MongoDB, ExpressJS, NodeJS, RESTful API\'s, PWAs'
+        },
+        {
+            title: 'Coding Paradigms',
+            text: 'Object Oriented Programming, Test Driven Developmnet, Object Relational Mapping'
+        },
+        {
+            title: '',
+            text: ''
+        }
+    ]
 }

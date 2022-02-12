@@ -8,7 +8,7 @@ const Hero = ({ logo }) => {
                 <div className='flex-column'>
                     <p className='hero-subtitle'>Welcome to my portfolio</p>
                 </div>
-                <img src={logo} />
+                {/* <img src={logo} /> */}
             </header>
         </section>
     )
