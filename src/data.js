@@ -16,7 +16,8 @@ export const footerLinks = {
     links: [
         {
             name: 'linkedIn',
-            url: 'https://www.linkedin.com/in/matthewpkaus/',
+            // url: 'https://www.linkedin.com/in/matthewpkaus/',
+            url: 'google.com',
             className: 'fab fa-linkedin'
         },
         {
