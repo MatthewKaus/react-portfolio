@@ -5,7 +5,7 @@ const Skills = ({ skillsText }) => {
     const info = skillsText.skills.map(info => {
         return (
             <div>
-                <h1>{info.title}</h1>,
+                <h1>{info.title}</h1>
                 <p>{info.text}</p>
             </div>
         )
