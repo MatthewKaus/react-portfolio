@@ -1,4 +1,5 @@
 import React from "react";
+import FadeIn from 'react-fade-in';
 
 const Skills = ({ skillsText }) => {
 
@@ -13,9 +14,11 @@ const Skills = ({ skillsText }) => {
 
 
     return (
-        <section>
-            {info}
-        </section>
+        <FadeIn>
+            <section>
+                {info}
+            </section>
+        </FadeIn>
     )
 }
 

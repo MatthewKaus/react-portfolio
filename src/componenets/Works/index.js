@@ -1,4 +1,5 @@
 import React from 'react';
+import FadeIn from 'react-fade-in';
 
 const Works = ({ worksText }) => {
 
@@ -28,13 +29,14 @@ const Works = ({ worksText }) => {
 
 
     return (
-        <section className='works'>
-            <h1 className='works-title'>Previous Work</h1>
-            <div className='works-container'>
-                {sections}
-            </div>
-
-        </section>
+        <FadeIn>
+            <section className='works'>
+                <h1 className='works-title'>Previous Work</h1>
+                <div className='works-container'>
+                    {sections}
+                </div>
+            </section>
+        </FadeIn>
     )
 }
 

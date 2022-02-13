@@ -1,4 +1,5 @@
 import React from 'react';
+import FadeIn from 'react-fade-in';
 
 const About = ({ aboutText }) => {
 
@@ -8,10 +9,12 @@ const About = ({ aboutText }) => {
 
 
     return (
-        <section className='about'>
-            <h1 className='about-title'>About Me</h1>
-            <p>{subtitle}</p>
-        </section>
+        <FadeIn>
+            <section className='about'>
+                <h1 className='about-title'>About Me</h1>
+                <p>{subtitle}</p>
+            </section>
+        </FadeIn>
     )
 }
 
