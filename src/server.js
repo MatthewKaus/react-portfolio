@@ -31,7 +31,7 @@ router.post("/contact", (req, res) => {
     const message = req.body.message;
     const mail = {
         from: name,
-        to: '',
+        to: process.env.REACT_APP_EMAIL_KEY,
         subject: 'Contact Form Message',
         html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${message}</p>`,
     };
