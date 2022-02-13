@@ -69,19 +69,25 @@ export const skillsText = {
     skills: [
         {
             title: 'Front-End',
-            text: 'JavaScript, ReactJS, HTML5, CSS, jQuery, BootStrap, Bulma'
+            text: 'JavaScript, HTML5, CSS, ReactJS, Handlebars, jQuery, BootStrap, Bulma'
         },
         {
             title: 'Back-End',
-            text: 'mySQL, MongoDB, ExpressJS, NodeJS, RESTful API\'s, PWAs'
+            text: 'mySQL, Sequilize, MongoDB, ExpressJS, NodeJS, GraphQl, RESTful API\'s, PWAs'
         },
         {
             title: 'Coding Paradigms',
-            text: 'Object Oriented Programming(OOP), Test Driven Development(TDD), Object Relational Mapping (ORM)'
+            text: 'Object Oriented Programming(OOP), Model View Controller (MVC), Test Driven Development(TDD), Onject-Document Mapping (ODM), Object-Relational Mapping (ORM)'
         },
         {
-            title: '',
-            text: ''
+            title: 'Server Creation and Utilization',
+            text: 'ExpressJS, Apollo, Heroku, MongoDB Atlas, Insomnia'
         }
+    ]
+}
+
+export const contactInfo = {
+    contact : [
+        {}
     ]
 }

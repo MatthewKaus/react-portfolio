@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import FadeIn from 'react-fade-in';
 
 const About = ({ aboutText }) => {
@@ -6,6 +6,11 @@ const About = ({ aboutText }) => {
     const subtitle = aboutText.about.map(subtitle => {
         return <p className='about-text'>{subtitle.text}</p>
     })
+
+    useEffect(() => {
+        document.body.style = "background-color: white; transition: .5s";
+    }, [])
+
 
 
     return (

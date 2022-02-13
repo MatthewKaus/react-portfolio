@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import FadeIn from 'react-fade-in';
 
 const Works = ({ worksText }) => {
+
+    useEffect(() => {
+        document.body.style = "background-color: white; transition: .5s";
+    }, [])
+
 
     const sections = worksText.works.map(sections => {
 

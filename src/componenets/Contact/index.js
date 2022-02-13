@@ -1,46 +1,37 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import FadeIn from 'react-fade-in';
 
 const Contact = () => {
-    const [status, setStatus] = useState("Submit");
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setStatus("Sending...");
-        const { name, email, message } = e.target.elements;
-        let details = {
-            name: name.value,
-            email: email.value,
-            message: message.value,
-        };
-        let response = await fetch("http://localhost:5000/contact", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json;charset=utf-8",
-            },
-            body: JSON.stringify(details),
-        });
-        setStatus("Submit");
-        let result = await response.json();
-        alert(result.status);
-    };
+
+    useEffect(() => {
+        document.body.style = "background-color: black; transition: .5s";
+    }, [])
+
+
     return (
-        <section>
-            <h1>Contact Me</h1>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" required />
+        <FadeIn>
+            <section>
+                <div className="contact-container border-bottom">
+                    <div className="border-bottom">
+                        <h1 className="contact-title">Contact Me</h1>
+                    </div>
+                    <div className="contact-container">
+                        <br></br>
+                        <p className="contact-text">Thank you for visiting!</p>
+                        <p className="contact-text">Feel free to contact me anytime!</p>
+                        <br></br>
+                        <div className="contact-link-container">
+                            <ul className="contact flex-row">
+                                <li className="contact-items"><a className=""><i className="fab fa-github"></i></a></li>
+                                <li className="contact-items"><a className=""><i className="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                        <br></br>
+                            <a href='mailto:matthewkausfox@gmail.com' className="button">matthewkausfox@gmail.com</a>
+                    </div>
                 </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" id="email" required />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea id="message" required />
-                </div>
-                <button type="submit">{status}</button>
-            </form>
-        </section>
+            </section>
+        </FadeIn>
     );
 };
 

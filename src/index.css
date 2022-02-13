@@ -199,6 +199,51 @@ a {
   color: var(--quarternary);
 }
 
+.border-bottom {
+  border-bottom: .05em solid var(--quinary);
+}
+
+.contact-container {
+  max-width: 1024px;
+  height: 40em;
+  color: var(--quinary);
+  margin: 1em auto;
+  border-radius: 5px;
+}
+
+.contact-title {
+  font-size: 2em;
+}
+
+.contact-text {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.contact-link-container {
+  width: 100%;
+  padding: 1em;
+}
+
+.contact {
+  margin: 0 auto;
+  max-width: 150px;
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.contact-items {
+  color: var(--quinary);
+  font-size: 4em;
+  padding: 1m 0;
+  margin: auto;
+  text-align: center;
+}
+
+
+
 footer {
   background: var(--primary);
   color: var(--quinary);
@@ -220,8 +265,23 @@ footer {
   text-align: center;
 }
 
+.button {
+  background-color: var(--quinary);
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: .1s;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.button:hover{
+  color: black;
+  background-color: var(--default);
+  transition: .1s;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-

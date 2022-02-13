@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+
+
+
 import { aboutText, footerLinks, skillsText, worksText} from './data'
 import logo from './assets/images/foxKritaNoBack.png'
 
@@ -25,7 +28,7 @@ function App() {
       case 'Works':
         return <Works worksText={worksText}/>;
       case 'Contact':
-        return <Contact />;
+        return <Contact/>;
       default:
         return <About aboutText={aboutText} />
     }
