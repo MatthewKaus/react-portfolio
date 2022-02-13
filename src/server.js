@@ -9,7 +9,7 @@ app.use(express.json());
 app.use('/', router);
 app.listen(5000, () => console.log("Server Running"));
 
-const contactEmail = nodeMailer.createTransport({
+const contactEmail = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: process.env.REACT_APP_EMAIL_KEY,
