@@ -9,8 +9,8 @@ const About = ({ aboutText }) => {
 
     return (
         <section className='about'>
-            <h1 className='about-title'>About me</h1>
-            {subtitle}
+            <h1 className='about-title'>About Me</h1>
+            <p>{subtitle}</p>
         </section>
     )
 }

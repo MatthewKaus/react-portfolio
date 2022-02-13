@@ -108,7 +108,6 @@ nav {
 }
 
 .body {
-  /* background: var(--secondary); */
   min-height: 60vh;;
 }
 
@@ -130,14 +129,29 @@ nav {
   text-align: left;
 }
 
+.skills {
+  max-width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
-i {
+.skills-title {
+  font-size: 2em;
+}
+
+.skills-text {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.footer-icon {
   font-size: 3em;
   color: var(--quinary);
   transition: .2s
 }
 
-i:hover {
+.footer-icon:hover {
   color: var(--default);
 }
 
@@ -159,9 +173,51 @@ a {
   list-style: none;
 }
 
+.works {
+  max-width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.works-title {
+  font-size: 2em;
+}
+
+.works-container {
+  align-items: center;
+}
+
+.work-container {
+  border: 2px solid var(--primary);
+  background-color: var(--primary);
+  max-width: 1024px;
+  display: flex;
+  flex-direction: row;
+  margin: 1em auto;
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--quarternary);
+}
+
 footer {
   background: var(--primary);
   color: var(--quinary);
+  width: 100%;
+  padding: 1em;
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 150px;
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.footer-items {
+  padding: 1dm 0;
+  margin: auto;
+  text-align: center;
 }
 
 code {

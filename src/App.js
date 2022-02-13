@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { aboutText, footerLinks, skillsText } from './data'
+import { aboutText, footerLinks, skillsText, worksText} from './data'
 import logo from './assets/images/foxKritaNoBack.png'
 
 import './App.css';
@@ -20,10 +20,10 @@ function App() {
 
   const renderPage = () => {
     switch (currentPage) {
-      case 'Works':
-        return <Works />;
       case 'Skills':
         return <Skills skillsText={skillsText}/>
+      case 'Works':
+        return <Works worksText={worksText}/>;
       case 'Contact':
         return <Contact />;
       default:
