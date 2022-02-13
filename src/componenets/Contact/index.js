@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import FadeIn from 'react-fade-in';
 
 const Contact = () => {
@@ -22,8 +22,8 @@ const Contact = () => {
                         <br></br>
                         <div className="contact-link-container">
                             <ul className="contact flex-row">
-                                <li className="contact-items"><a className=""><i className="fab fa-github"></i></a></li>
-                                <li className="contact-items"><a className=""><i className="fab fa-linkedin"></i></a></li>
+                                <li className="contact-items"><a className="" href=''><i className="fab fa-github"></i></a></li>
+                                <li className="contact-items"><a className="" href=''><i className="fab fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                         <br></br>
