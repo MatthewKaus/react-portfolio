@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Contact = () => {
-
     const [status, setStatus] = useState("Submit");
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -12,42 +11,37 @@ const Contact = () => {
             email: email.value,
             message: message.value,
         };
-        let response = await fetch("https://localhost:5000/contact", {
+        let response = await fetch("http://localhost:5000/contact", {
             method: "POST",
             headers: {
-                "Content-Type": "application/json;charset=utf-8"
+                "Content-Type": "application/json;charset=utf-8",
             },
-            body: JSON.stringify(details)
+            body: JSON.stringify(details),
         });
         setStatus("Submit");
         let result = await response.json();
         alert(result.status);
-    }
-
-
+    };
     return (
         <section>
             <h1>Contact Me</h1>
-
-
-
             <form onSubmit={handleSubmit}>
                 <div>
-                    <input type="text" id="name" required />
                     <label htmlFor="name">Name:</label>
+                    <input type="text" id="name" required />
                 </div>
                 <div>
-                    <input type="email" id="email" required />
                     <label htmlFor="email">Email:</label>
+                    <input type="email" id="email" required />
                 </div>
                 <div>
-                    <textarea id="message" required />
                     <label htmlFor="message">Message:</label>
+                    <textarea id="message" required />
                 </div>
                 <button type="submit">{status}</button>
             </form>
         </section>
-    )
-}
+    );
+};
 
 export default Contact;
