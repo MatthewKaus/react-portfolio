@@ -22,8 +22,8 @@ const Contact = () => {
                         <br></br>
                         <div className="contact-link-container">
                             <ul className="contact flex-row">
-                                <li className="contact-items"><a className="" href=''><i className="fab fa-github"></i></a></li>
-                                <li className="contact-items"><a className="" href=''><i className="fab fa-linkedin"></i></a></li>
+                                <li className="contact-items"><a className="" href='https://github.com/MatthewKaus'><i className="fab fa-github"></i></a></li>
+                                <li className="contact-items"><a className="" href='https://www.linkedin.com/in/matthewpkaus/'><i className="fab fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                         <br></br>
