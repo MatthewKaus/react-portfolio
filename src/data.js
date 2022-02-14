@@ -7,13 +7,19 @@ import {
 export const aboutText = {
     about: [
         {
-            text: 'I am from small town Gallup, New Mexico and a graduate in Full Stack Web Development from the University of Arizona. I am specialized in the MERN Stack (MangoDB, Express.js, React, Node.js)'
+            text: 'I am from small town Gallup, New Mexico and a graduate in Full Stack Web Development from the University of Arizona. I am specialized in the MERN and SERN stack.'
         },
         {
-            text: ''
+            text: 'I am eager to learn more about technology from any opportunity.'
         },
         {
-            text: 'Third text goes here'
+            text: 'My interest first arose from the opportunity at the University of New Mexico, during the summer National Security Studies Program in 2018. There I learned about Data Science, Cyber Security and my introduction into programming.'
+        },
+        {
+            text: 'After graduating highschool with college experience and wanting to learn more about programming, I undertook learning full stack web development at the University of Arizona. There I earned my certificate after completing the rigoruous 24-week course.'
+        },
+        {
+            text: 'When I am not programming, I enjoy playing guitar, cooking, and taking hikes.'
         }
     ]
 };

@@ -6,7 +6,7 @@ const Hero = ({ logo }) => {
             <header className='hero'>
                 <h1 className='hero-header'>Matthew Kaus</h1>
                 <div className='flex-column'>
-                    <p className='hero-subtitle'>Welcome to my portfolio</p>
+                    <p className='hero-subtitle'>Full Stack Web Developer</p>
                 </div>
                 <img src={logo} alt='logo'/>
             </header>
