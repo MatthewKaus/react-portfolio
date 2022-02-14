@@ -19,7 +19,7 @@ export const aboutText = {
             text: 'After graduating highschool with college experience and wanting to learn more about programming, I undertook learning full stack web development at the University of Arizona. There I earned my certificate after completing the rigoruous 24-week course.'
         },
         {
-            text: 'When I am not programming, I enjoy playing guitar, cooking, and taking hikes.'
+            text: 'When I am not programming, I enjoy playing guitar, cooking, and taking hikes. '
         }
     ]
 };
@@ -57,7 +57,7 @@ export const worksText = {
             text: 'Benefactor is a gift giving registry designed to make gift buying fun. Benefactor includes an element of surprise which allows the user to gift randomly to others.',
             technology: 'JavaScript, Handlebars, Bulma, Sequelize, Cloudinary',
             githubUrl: 'https://github.com/CdHebert/benefactor',
-            deployUrl: ''
+            deployUrl: 'https://giving-benefactor.herokuapp.com/'
         },
         {
             image: employee,
@@ -65,8 +65,8 @@ export const worksText = {
             title: 'Employee Manager',
             text: 'With Employee Manager, the user is able to create ID cards for their employees through a series of quesitons',
             technology: 'JavasScript, Node.js, Inquirer, CSS, Bulma, HTML5',
-            githubUrl: '',
-            deployUrl: ''
+            githubUrl: 'https://github.com/MatthewKaus/Employee-Manager',
+            deployUrl: 'https://github.com/MatthewKaus/Employee-Manager'
         }
     ]
 }
