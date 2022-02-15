@@ -2,10 +2,10 @@ import {
     cherryton,
     employee,
     benefactor,
-    dailytaskscheduler,
+    // dailytaskscheduler,
     googlebooksearch,
-    passwordgenerator,
-    weatherdashboard
+    // passwordgenerator,
+    // weatherdashboard
 } from './assets/images/works'; 
 
 export const aboutText = {
