@@ -1,7 +1,11 @@
 import {
     cherryton,
     employee,
-    benefactor
+    benefactor,
+    dailytaskscheduler,
+    googlebooksearch,
+    passwordgenerator,
+    weatherdashboard
 } from './assets/images/works'; 
 
 export const aboutText = {
@@ -42,15 +46,6 @@ export const footerLinks = {
 export const worksText = {
     works: [
         {
-            image: cherryton,
-            imageAlt: 'cherryton webpage',
-            title: 'Cherryton Academy',
-            text: 'Cherryton Academy is a mockup website from the manga and animated series, Beastars.',
-            technology: 'JavasSript, Handlebars, Bulma, CSS, Sequalize',
-            githubUrl: 'https://github.com/MatthewKaus/cherryton-academy',
-            deployUrl: 'https://cherryton-academy.herokuapp.com/'
-        },
-        {
             image: benefactor,
             imageAlt: 'benefactor webpage',
             title: 'Benefactor',
@@ -60,6 +55,24 @@ export const worksText = {
             deployUrl: 'https://giving-benefactor.herokuapp.com/'
         },
         {
+            image: googlebooksearch,
+            imageAlt: 'googlebooksearch webpage',
+            title: 'Google Book Search',
+            text: 'With Google Book Search Engine, any user could create an account, and search for books to add to their collection',
+            technology: 'JavaScript, React, MongoDB, GraphQL',
+            githubUrl: 'https://github.com/MatthewKaus/Book-Search-Engine',
+            deployUrl: 'https://google-book-search-mattk.herokuapp.com/'
+        },
+        {
+            image: cherryton,
+            imageAlt: 'cherryton webpage',
+            title: 'Cherryton Academy',
+            text: 'Cherryton Academy is a mockup website from the manga and animated series, Beastars.',
+            technology: 'JavasSript, Handlebars, Bulma, CSS, Sequalize',
+            githubUrl: 'https://github.com/MatthewKaus/cherryton-academy',
+            deployUrl: 'https://cherryton-academy.herokuapp.com/'
+        },
+        {
             image: employee,
             imageAlt: 'employee results',
             title: 'Employee Manager',
@@ -67,7 +80,7 @@ export const worksText = {
             technology: 'JavasScript, Node.js, Inquirer, CSS, Bulma, HTML5',
             githubUrl: 'https://github.com/MatthewKaus/Employee-Manager',
             deployUrl: 'https://github.com/MatthewKaus/Employee-Manager'
-        }
+        },
     ]
 }
 
