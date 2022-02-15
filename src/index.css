@@ -108,7 +108,7 @@ nav {
 }
 
 .body {
-  min-height: 85vh;;
+  min-height: 700px;;
 }
 
 .about {
@@ -242,6 +242,21 @@ a {
   text-align: center;
 }
 
+.work {
+  margin: 0 auto;
+  max-width: 150px;
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.work-items {
+  color: var(--quinary);
+  font-size: 2em;
+  padding: 1m 0;
+  margin: auto;
+  text-align: center;
+}
 
 
 footer {

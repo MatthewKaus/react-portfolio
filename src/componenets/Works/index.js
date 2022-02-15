@@ -21,9 +21,9 @@ const Works = ({ worksText }) => {
                     <ul>
                         <li>{sections.technology}</li>
                     </ul>
-                    <ul>
-                        <li key='github'><a href={sections.githubUrl}><i className="fab fa-github"></i></a></li>
-                        <li key='deployed'><a href={sections.deployUrl}><i className="fa fa-link"></i></a></li>
+                    <ul className="work flex-row">
+                        <li key='github' className="work-items"><a href={sections.githubUrl}><i className="fab fa-github"></i></a></li>
+                        <li key='deployed' className="work-items"><a href={sections.deployUrl}><i className="fa fa-link"></i></a></li>
                     </ul>
                 </div>
             </div>
