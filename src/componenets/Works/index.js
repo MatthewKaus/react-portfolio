@@ -13,7 +13,7 @@ const Works = ({ worksText }) => {
         return (
             <div className='work-container'>
                 <div className='work-image'>
-                    <img src={sections.image} alt={sections.imageAlt} />
+                    <img className="works-img" src={sections.image} alt={sections.imageAlt} />
                 </div>
                 <div className='work-text-container'>
                     <h1>{sections.title}</h1>

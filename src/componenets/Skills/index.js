@@ -5,7 +5,10 @@ const Skills = ({ skillsText }) => {
 
     const info = skillsText.skills.map(info => {
         return (
-            <div className="skills">
+            <div className="skills-card">
+                <div className="skills-icon-box">
+                    <i className={info.className} />
+                </div>
                 <h1 className="skills-title">{info.title}</h1>
                 <p className="skills-text">{info.text}</p>
             </div>
@@ -21,9 +24,11 @@ const Skills = ({ skillsText }) => {
     return (
         <FadeIn>
             <section>
-                {info}
+                <div className="skills">
+                    {info}
+                </div>
             </section>
-        </FadeIn>
+        </FadeIn >
     )
 }
 

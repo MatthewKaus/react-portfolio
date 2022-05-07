@@ -6,7 +6,7 @@ import {
     googlebooksearch,
     // passwordgenerator,
     // weatherdashboard
-} from './assets/images/works'; 
+} from './assets/images/works';
 
 export const aboutText = {
     about: [
@@ -38,7 +38,7 @@ export const footerLinks = {
         {
             name: 'github',
             url: 'https://github.com/MatthewKaus',
-            className: 'fab fa-github footer-icon'
+            className: 'fab fa-github footer-icon',
         }
     ]
 };
@@ -87,26 +87,51 @@ export const worksText = {
 export const skillsText = {
     skills: [
         {
+            className: 'fa fa-code skills-icon',
             title: 'Front-End',
             text: 'JavaScript, HTML5, CSS, ReactJS, Handlebars, jQuery, BootStrap, Bulma'
         },
         {
-            title: 'Back-End',
-            text: 'mySQL, Sequilize, MongoDB, ExpressJS, NodeJS, GraphQl, RESTful API\'s, PWAs'
+            className: 'fa fa-gear skills-icon',
+            title: 'API Creation and Implementation',
+            text: 'Web APIS, Third-party API\'s Serverside API\'s, Restful API\'s, GraphQL'
         },
         {
+            className: 'fa fa-brands fa-node-js skills-icon',
+            title: 'Node JS',
+            text: 'NPM, Inquirer, Jest'
+        },
+        {
+            className: 'fa fa-server skills-icon',
+            title: 'Server Creation',
+            text: 'Express, Apollo, Heroku, JawsDB, MongoDB, Insomnia'
+        },
+        {
+            className: 'fa fa-database skills-icon',
+            title: 'DataBases',
+            text: 'MySQL, MongoDB, CRUD Operations'
+        },
+        {
+            className: 'fa fa-brain skills-icon',
             title: 'Coding Paradigms',
-            text: 'Object Oriented Programming(OOP), Model View Controller (MVC), Test Driven Development(TDD), Onject-Document Mapping (ODM), Object-Relational Mapping (ORM)'
+            text: 'Object Oriented Programming (OOP), Model View Control (MVC), Test Driven Development (TDD), Object Document Model (ODM), Object Relational Mapping (ORM)'
         },
         {
-            title: 'Server Creation and Utilization',
-            text: 'ExpressJS, Apollo, Heroku, MongoDB Atlas, Insomnia'
+            className: 'fa fa-layer-group skills-icon',
+            title: 'Full Stack Applications',
+            text: 'MERN Stack, SERN Stack, Handlebars, MySQL, Express, NodeJS, State'
+        },
+        {
+            className: 'fa fa-code-branch skills-icon',
+            title: 'Source Control',
+            text: 'Git Projects, Github, Gitlab, Git Bash'
         }
+
     ]
 }
 
 export const contactInfo = {
-    contact : [
+    contact: [
         {}
     ]
 }
