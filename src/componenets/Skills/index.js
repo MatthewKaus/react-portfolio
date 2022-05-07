@@ -24,6 +24,7 @@ const Skills = ({ skillsText }) => {
     return (
         <FadeIn>
             <section>
+                <h1 className="works-title">Skills</h1>
                 <div className="skills">
                     {info}
                 </div>
