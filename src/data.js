@@ -89,42 +89,42 @@ export const skillsText = {
         {
             className: 'fa fa-code skills-icon',
             title: 'Front-End',
-            text: 'JavaScript, HTML5, CSS, ReactJS, Handlebars, jQuery, BootStrap, Bulma'
+            text: ['JavaScript', 'HTML5', 'CSS', 'ReactJS', 'Handlebars', 'jQuery', 'BootStrap', 'Bulma']
         },
         {
             className: 'fa fa-gear skills-icon',
             title: 'API Creation and Implementation',
-            text: 'Web APIS, Third-party API\'s Serverside API\'s, Restful API\'s, GraphQL'
+            text: ['Web APIS', 'Third-party API\'s', 'Serverside API\'s', 'Restful API\'s', 'GraphQL']
         },
         {
             className: 'fa fa-brands fa-node-js skills-icon',
             title: 'Node JS',
-            text: 'NPM, Inquirer, Jest'
+            text: ['NPM', 'Inquierer', 'Jest']
         },
         {
             className: 'fa fa-server skills-icon',
             title: 'Server Creation',
-            text: 'Express, Apollo, Heroku, JawsDB, MongoDB, Insomnia'
+            text: ['Express', 'Apollo', 'Heroku', 'JawsDB', 'MongoDB', 'Insomnia'],
         },
         {
             className: 'fa fa-database skills-icon',
             title: 'DataBases',
-            text: 'MySQL, MongoDB, CRUD Operations'
+            text: ['MySQL', 'MongoDB', 'CRUD Operations']
         },
         {
             className: 'fa fa-brain skills-icon',
             title: 'Coding Paradigms',
-            text: 'Object Oriented Programming (OOP), Model View Control (MVC), Test Driven Development (TDD), Object Document Model (ODM), Object Relational Mapping (ORM)'
+            text: ['Object Oriented Programming (OOP)', 'Model View Control (MVC)', 'Test Driven Development (TDD)', 'Object Document Model (ODM)', 'Object Relational Mapping (ORM)']
         },
         {
             className: 'fa fa-layer-group skills-icon',
             title: 'Full Stack Applications',
-            text: 'MERN Stack, SERN Stack, Handlebars, MySQL, Express, NodeJS, State'
+            text: ['MERN Stack', 'SERN Stack', 'Handlebars', 'MySQL', 'Express', 'NodeJS', 'State']
         },
         {
             className: 'fa fa-code-branch skills-icon',
             title: 'Source Control',
-            text: 'Git Projects, Github, Gitlab, Git Bash'
+            text: ['Git Projects', 'Github', 'Gitlab', 'Git Bash']
         }
 
     ]

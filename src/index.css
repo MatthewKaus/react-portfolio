@@ -261,6 +261,7 @@ a {
 }
 
 .contact-title {
+  color: var(--default);
   font-size: 2em;
 }
 

@@ -10,7 +10,11 @@ const Skills = ({ skillsText }) => {
                     <i className={info.className} />
                 </div>
                 <h1 className="skills-title">{info.title}</h1>
-                <p className="skills-text">{info.text}</p>
+                <ul>
+                    {info.text.map((info) => {
+                        return <li className="skills-text">{info}</li>
+                    })}
+                </ul>
             </div>
         )
     })
