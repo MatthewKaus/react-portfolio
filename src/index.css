@@ -242,6 +242,7 @@ a {
   padding: 10px;
   border-radius: 5px;
   color: var(--quarternary);
+  justify-content: center;
 }
 
 .work-text-container {
