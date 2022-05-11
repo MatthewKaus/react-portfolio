@@ -365,10 +365,13 @@ code {
   }
 }
 
-/* @media screen and (max-width: 767px) {
-  .hero-img {
-    max-width: 20em;
+@media screen and (max-width: 767px) {
+  .skills-card {
+    width: calc(100% - 1em );
   }
-
-
-} */
+  
+  .hero-img {
+    max-width: 10em;
+  }
+  
+  }
