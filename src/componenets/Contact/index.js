@@ -24,10 +24,11 @@ const Contact = () => {
                             <ul className="contact flex-row">
                                 <li className="contact-items"><a className="" href='https://github.com/MatthewKaus'><i className="fab fa-github"></i></a></li>
                                 <li className="contact-items"><a className="" href='https://www.linkedin.com/in/matthewpkaus/'><i className="fab fa-linkedin"></i></a></li>
+                                <li className="contact-items"><a className="" href='mailto:matthewkausfox@gmail.com'><i class="fa-solid fa-envelope"></i></a></li>
                             </ul>
                         </div>
-                        <br></br>
-                            <a href='mailto:matthewkausfox@gmail.com' className="button">matthewkausfox@gmail.com</a>
+                        <br />
+                        <a href="./Matthew-Kaus-Resume.pdf" className="button" download><i class="fa-solid fa-download"></i> Resume</a>
                     </div>
                 </div>
             </section>
