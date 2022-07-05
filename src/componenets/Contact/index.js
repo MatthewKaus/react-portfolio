@@ -18,7 +18,7 @@ const Contact = () => {
                     <div className="contact-container">
                         <br></br>
                         <p className="contact-text">Thank you for visiting!</p>
-                        <p className="contact-text">Feel free to contact me anytime!</p>
+                        <p className="contact-text">Feel free to contact me anytime: matthewkausfox@gmail</p>
                         <br></br>
                         <div className="contact-link-container">
                             <ul className="contact flex-row">
