@@ -9,6 +9,19 @@ const Works = ({ worksText }) => {
 
 
     const sections = worksText.works.map(sections => {
+        let github;
+        let deployed;
+
+        if (sections.githubUrl) {
+            github = <li key='github' className="work-items"><a href={sections.githubUrl}><i className="fab fa-github"></i></a></li>
+        } else {
+            github = ''
+        }
+        if (sections.deployUrl) {
+            deployed = <li key='deployed' className="work-items"><a href={sections.deployUrl}><i className="fa fa-link"></i></a></li>
+        } else {
+            deployed = ''
+        }
 
         return (
             <div className='work-container'>
@@ -22,8 +35,10 @@ const Works = ({ worksText }) => {
                         <li>{sections.technology}</li>
                     </ul>
                     <ul className="work flex-row">
-                        <li key='github' className="work-items"><a href={sections.githubUrl}><i className="fab fa-github"></i></a></li>
-                        <li key='deployed' className="work-items"><a href={sections.deployUrl}><i className="fa fa-link"></i></a></li>
+                        {github}
+                        {deployed}
+                        {/* <li key='github' className="work-items"><a href={sections.githubUrl}><i className="fab fa-github"></i></a></li> */}
+                        {/* <li key='deployed' className="work-items"><a href={sections.deployUrl}><i className="fa fa-link"></i></a></li> */}
                     </ul>
                 </div>
             </div>

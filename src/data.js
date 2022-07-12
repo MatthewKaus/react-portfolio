@@ -79,7 +79,7 @@ export const worksText = {
             text: 'With Employee Manager, the user is able to create ID cards for their employees through a series of quesitons',
             technology: 'JavasScript, Node.js, Inquirer, CSS, Bulma, HTML5',
             githubUrl: 'https://github.com/MatthewKaus/Employee-Manager',
-            deployUrl: 'https://github.com/MatthewKaus/Employee-Manager'
+            // deployUrl: 'https://github.com/MatthewKaus/Employee-Manager'
         },
     ]
 }
