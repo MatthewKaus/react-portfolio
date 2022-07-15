@@ -12,16 +12,8 @@ const Works = ({ worksText }) => {
         let github;
         let deployed;
 
-        if (sections.githubUrl) {
-            github = <li key='github' className="work-items"><a href={sections.githubUrl}><i className="fab fa-github"></i></a></li>
-        } else {
-            github = ''
-        }
-        if (sections.deployUrl) {
-            deployed = <li key='deployed' className="work-items"><a href={sections.deployUrl}><i className="fa fa-link"></i></a></li>
-        } else {
-            deployed = ''
-        }
+        sections.githubUrl ? github = <li key='github' className="work-items"><a href={sections.githubUrl}><i className="fab fa-github"></i></a></li> : github = ''
+        sections.deployUrl ? deployed = <li key='deployed' className="work-items"><a href={sections.deployUrl}><i className="fa fa-link"></i></a></li> : deployed = ''
 
         return (
             <div className='work-container'>
@@ -37,8 +29,6 @@ const Works = ({ worksText }) => {
                     <ul className="work flex-row">
                         {github}
                         {deployed}
-                        {/* <li key='github' className="work-items"><a href={sections.githubUrl}><i className="fab fa-github"></i></a></li> */}
-                        {/* <li key='deployed' className="work-items"><a href={sections.deployUrl}><i className="fa fa-link"></i></a></li> */}
                     </ul>
                 </div>
             </div>
