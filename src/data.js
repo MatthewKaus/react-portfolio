@@ -5,7 +5,10 @@ import {
     // dailytaskscheduler,
     googlebooksearch,
     // passwordgenerator,
-    // weatherdashboard
+    // weatherdashboard,
+    stockwatchlist,
+    // stockwatchlistdark,
+    // stockwatchlist,
 } from './assets/images/works';
 
 export const aboutText = {
@@ -46,17 +49,26 @@ export const footerLinks = {
 export const worksText = {
     works: [
         {
+            image: stockwatchlist,
+            imageAlt: 'Stock WatchList Webpage',
+            title: 'Stock WatchList',
+            text: 'Stock WatchList is an app that allows users to look up stock names, to be presented both a visual graph of the stock as well as the current news articles of that stock.',
+            technology: 'MongoDB, Express.js, Svelte, Node, GraphQL, Tailwind, Daisy-UI, Chart.js, Heroku',
+            githubUrl: 'https://github.com/MatthewKaus/stock-watchlist',
+            deployUrl: 'https://matthewkaus-stock-watchlist.netlify.app'
+        },
+        {
             image: benefactor,
-            imageAlt: 'benefactor webpage',
+            imageAlt: 'Benefactor Webpage',
             title: 'Benefactor',
             text: 'Benefactor is a gift giving registry designed to make gift buying fun. Benefactor includes an element of surprise which allows the user to gift randomly to others.',
-            technology: 'JavaScript, Handlebars, Bulma, Sequelize, Cloudinary',
+            technology: 'JavaScript, Handlebars, Bulma, Sequelize, Cloudinary, Heroku',
             githubUrl: 'https://github.com/CdHebert/benefactor',
             deployUrl: 'https://giving-benefactor.herokuapp.com/'
         },
         {
             image: googlebooksearch,
-            imageAlt: 'googlebooksearch webpage',
+            imageAlt: 'Googlebooksearch Webpage',
             title: 'Google Book Search',
             text: 'With Google Book Search Engine, any user could create an account, and search for books to add to their collection',
             technology: 'JavaScript, React, MongoDB, GraphQL',
@@ -65,7 +77,7 @@ export const worksText = {
         },
         {
             image: cherryton,
-            imageAlt: 'cherryton webpage',
+            imageAlt: 'Cherryton Webpage',
             title: 'Cherryton Academy',
             text: 'Cherryton Academy is a mockup website from the manga and animated series, Beastars.',
             technology: 'JavasSript, Handlebars, Bulma, CSS, Sequalize',
@@ -74,7 +86,7 @@ export const worksText = {
         },
         {
             image: employee,
-            imageAlt: 'employee results',
+            imageAlt: 'Employee results',
             title: 'Employee Manager',
             text: 'With Employee Manager, the user is able to create ID cards for their employees through a series of quesitons',
             technology: 'JavasScript, Node.js, Inquirer, CSS, Bulma, HTML5',

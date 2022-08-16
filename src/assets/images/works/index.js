@@ -5,6 +5,9 @@ import dailytaskscheduler from './dailytaskscheduler.png';
 import googlebooksearch from './googlebooksearch.png';
 import passwordgenerator from './passwordgenerator.png';
 import weatherdashboard from './weatherdashboard.png';
+import stockwatchlist from './stockwatchlist.png'
+import stockwatchlistdark from './stockwatchlistdark.png'
+import stockwatchlistlight from './stockwatchlistlight.png'
 
 export {
     cherryton,
@@ -13,5 +16,8 @@ export {
     dailytaskscheduler,
     googlebooksearch,
     passwordgenerator,
-    weatherdashboard
+    weatherdashboard,
+    stockwatchlist,
+    stockwatchlistdark,
+    stockwatchlistlight,
 };
