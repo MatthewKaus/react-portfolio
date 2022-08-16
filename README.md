@@ -1,6 +1,8 @@
 <div align="center"><h1>Portfolio</h1></div>
 
-![Website Image](src/assets/images/WebsiteImage.png)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d248b8f4-a4fa-40b5-801b-814a73cbf9cb/deploy-status)](https://matthewkaus.netlify.app/)
+
+[![Website Image](src/assets/images/WebsiteImage.png)](https://matthewkaus.netlify.app/)
 
 ## Description
 This Portfolio is made with React, hosting some of my projects.

@@ -101,7 +101,7 @@ export const skillsText = {
         {
             className: 'fa fa-code skills-icon',
             title: 'Front-End',
-            text: ['JavaScript', 'HTML5', 'CSS', 'ReactJS', 'Handlebars', 'jQuery', 'BootStrap', 'Bulma']
+            text: ['JavaScript', 'HTML5', 'CSS', 'ReactJS', 'Svelte', 'Handlebars', 'jQuery', 'BootStrap', 'Bulma']
         },
         {
             className: 'fa fa-gear skills-icon',
