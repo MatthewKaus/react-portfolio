@@ -12,10 +12,7 @@ This Portfolio is made with React, hosting some of my projects.
 * CSS
 
 <div align="center"><h2>Contact</h2></div>
-
-
- <hr />
- 
+ <hr /> 
  <div align='center'>
 <a href="mailto:matthewkausfox@gmail.com">
   <img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
