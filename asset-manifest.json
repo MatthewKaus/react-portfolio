@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.a7dd9d41.css",
+    "main.js": "/react-portfolio/static/js/main.ae147b7c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/heroImage1.jpg": "/react-portfolio/static/media/heroImage1.3de3041dd69b57ad61e4.jpg",
+    "static/media/fa-solid-900.ttf": "/react-portfolio/static/media/fa-solid-900.de78ce19b6954a6f4144.ttf",
+    "static/media/foxKritaNoBack.png": "/react-portfolio/static/media/foxKritaNoBack.1684a78fdf26716d3f5c.png",
+    "static/media/fa-brands-400.ttf": "/react-portfolio/static/media/fa-brands-400.c90f83fd0c6c34dd638f.ttf",
+    "static/media/fa-solid-900.woff2": "/react-portfolio/static/media/fa-solid-900.5cb518f1dd00e7374eb8.woff2",
+    "static/media/benefactor.png": "/react-portfolio/static/media/benefactor.3d1b368a648b65ae72f8.png",
+    "static/media/fa-brands-400.woff2": "/react-portfolio/static/media/fa-brands-400.123e8cfb2b8bcdef2c3a.woff2",
+    "static/media/stockwatchlist.png": "/react-portfolio/static/media/stockwatchlist.0d1197144f90359eccb8.png",
+    "static/media/googlebooksearch.png": "/react-portfolio/static/media/googlebooksearch.f7b1214e1296574e7828.png",
+    "static/media/stockwatchlistdark.png": "/react-portfolio/static/media/stockwatchlistdark.fb43169d11eb3e0d4050.png",
+    "static/media/stockwatchlistlight.png": "/react-portfolio/static/media/stockwatchlistlight.6f5857decbb4fc33f808.png",
+    "static/media/fa-regular-400.ttf": "/react-portfolio/static/media/fa-regular-400.ce1650acad36ae1d3c93.ttf",
+    "static/media/weatherdashboard.png": "/react-portfolio/static/media/weatherdashboard.24ae6fff9a28cb6dd35d.png",
+    "static/media/passwordgenerator.png": "/react-portfolio/static/media/passwordgenerator.d4164197b340f1f4f585.png",
+    "static/media/dailytaskscheduler.png": "/react-portfolio/static/media/dailytaskscheduler.5f6f5cb4ab43e5ec5690.png",
+    "static/media/cherryton.png": "/react-portfolio/static/media/cherryton.0283bcce9f1abe440818.png",
+    "static/media/employee.png": "/react-portfolio/static/media/employee.41f544baa6168d4a9563.png",
+    "static/media/fa-regular-400.woff2": "/react-portfolio/static/media/fa-regular-400.86fd3b02c25ecde4a02b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/react-portfolio/static/media/fa-v4compatibility.f2268f438379a3e39843.ttf",
+    "static/media/fa-v4compatibility.woff2": "/react-portfolio/static/media/fa-v4compatibility.a9f39cf4a35334e80396.woff2",
+    "index.html": "/react-portfolio/index.html",
+    "main.a7dd9d41.css.map": "/react-portfolio/static/css/main.a7dd9d41.css.map",
+    "main.ae147b7c.js.map": "/react-portfolio/static/js/main.ae147b7c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7dd9d41.css",
+    "static/js/main.ae147b7c.js"
+  ]
+}
