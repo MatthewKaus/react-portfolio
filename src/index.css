@@ -189,7 +189,7 @@ nav {
 }
 
 .footer-icon {
-  font-size: 3em;
+  font-size: 2.25em;
   color: var(--quinary);
   transition: .2s
 }
@@ -322,7 +322,7 @@ footer {
 
 .footer {
   margin: 0 auto;
-  max-width: 150px;
+  max-width: 115px;
   list-style: none;
   display: flex;
   padding: 0;
